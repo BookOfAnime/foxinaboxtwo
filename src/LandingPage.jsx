@@ -28,8 +28,8 @@ const LandingPage = () => {
     <section id="home" className="landing-page">
       <div className="landing-content">
         <h1 className="landing-title">
-          <span className="title-word">Foxy</span>
-          <span className="title-word">Boxy</span>
+          <span className="title-word">Fox In</span>
+          <span className="title-word">Box</span>
         </h1>
         <p className="landing-subtitle">....</p>
         <a href="#gallery" className="cta-button">Explore Memes</a>

@@ -181,7 +181,7 @@ const FoxSnakeGame = () => {
 
   return (
     <section id="game" className="game-container">
-      <h2 className="section-title">Fox Snake Game</h2>
+      <h2 className="section-title">Fox Box Game</h2>
       <div className="game-area">
         <div className="canvas-container">
           <canvas
