@@ -14,8 +14,8 @@ const FoxSnakeGame = () => {
 
   // Sound effects
   const moveSound = new Audio('/path-to-your-move-sound.mp3');
-  const eatSound = new Audio('/path-to-your-eat-sound.mp3');
-  const gameOverSound = new Audio('/path-to-your-gameover-sound.mp3');
+  const eatSound = new Audio('/crunch.mp3');
+  const gameOverSound = new Audio('/die.mp3');
 
   useEffect(() => {
     const context = canvasRef.current.getContext('2d');
