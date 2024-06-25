@@ -5,14 +5,18 @@ import './App.css'
 import FoxSnakeGame from './FoxGame'
 import LandingPage from './LandingPage'
 import MemeGallery from './MemeGallery'
+import Navbar from './assets/Navbar'
+import Tokenomics from './Tokenomics'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <Navbar />
     <LandingPage />
     <MemeGallery />
+    <Tokenomics />
       <FoxSnakeGame />
       
 
