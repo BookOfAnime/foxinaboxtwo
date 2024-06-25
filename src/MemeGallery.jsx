@@ -11,7 +11,12 @@ const MemeGallery = () => {
     { id: 7, src: "/jamaca.jpeg", alt: "Funny meme 7", title: "Dreadlocks Fox in Box" },
     { id: 8, src: "/whiskey.jpeg", alt: "Funny meme 8", title: "On the Rocks Fox in Box" },
     { id: 9, src: "/mox.jpeg", alt: "Funny meme 8" },
-    { id: 10, src:"./space.jpeg", alt:"ereare", title:"Spaces Rocks Fox in Box"}
+    { id: 10, src:"./space.jpeg", alt:"ereare", title:"Spaces Rocks Fox in Box"},
+    { id: 11, src:"./botox.jpeg", alt:"ereare", title:"Botox Fox in Box"},
+    { id: 12, src:"./maga.jpeg", alt:"ereare", title:"MAGA Fox in Box"},
+
+
+
   ];
 
   return (

@@ -29,9 +29,9 @@ const LandingPage = () => {
       <div className="landing-content">
         <h1 className="landing-title">
           <span className="title-word">Foxy</span>
-          <span className="title-word">Memes</span>
+          <span className="title-word">Boxy</span>
         </h1>
-        <p className="landing-subtitle">Where Wit Meets Whiskers</p>
+        <p className="landing-subtitle">....</p>
         <a href="#gallery" className="cta-button">Explore Memes</a>
       </div>
       <img 
