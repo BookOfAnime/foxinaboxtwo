@@ -1,0 +1,237 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff5e6;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.section-title {
+  text-align: center;
+  color: #d35400;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #d35400;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar-logo {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar-links li {
+  margin-left: 1rem;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-menu-icon {
+  display: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Landing Page Styles */
+/* Landing Page Styles */
+.landing-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f39c12, #d35400);
+  padding: 2rem;
+}
+
+.landing-content {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.landing-title {
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 0.5rem;
+  font-family: 'Playfair Display', serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.landing-subtitle {
+  font-size: 1.5rem;
+  color: #fff8e1;
+  margin-bottom: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.image-container {
+  max-width: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.featured-meme {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover .featured-meme {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .landing-title {
+    font-size: 3rem;
+  }
+
+  .landing-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .image-container {
+    max-width: 300px;
+  }
+}
+/* Meme Gallery Styles */
+.meme-gallery {
+  padding: 4rem 2rem;
+}
+
+.meme-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.meme-item {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.meme-item:hover {
+  transform: translateY(-5px);
+}
+
+.meme-item img {
+  width: 100%;
+  height: auto;
+}
+
+/* Tokenomics Styles */
+.tokenomics {
+  padding: 4rem 2rem;
+  background-color: #ffefd5;
+}
+
+.timeline {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline-item {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.timeline-date {
+  flex-basis: 120px;
+  font-weight: bold;
+  color: #d35400;
+}
+
+.timeline-event {
+  flex-grow: 1;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Fox Snake Game Styles */
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.game-canvas {
+  border: 2px solid #d35400;
+}
+
+.game-instructions {
+  margin-top: 1rem;
+  color: #d35400;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar-links.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #d35400;
+  }
+
+  .navbar-links.active li {
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .navbar-menu-icon {
+    display: block;
+  }
+
+  .landing-title {
+    font-size: 2rem;
+  }
+
+  .meme-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
