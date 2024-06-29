@@ -3,10 +3,10 @@ import { Rocket, Award, CreditCard, Moon } from 'lucide-react';
 
 const Tokenomics = () => {
   const timeline = [
-    { date: "2023 Q4", event: "Meme Token Launch", description: "Initial release of FoxyMeme tokens to the public.", icon: <Rocket /> },
-    { date: "2024 Q2", event: "Meme Contest", description: "Launch of beta version for buying and selling memes with FoxyMeme tokens.", icon: <Award /> },
-    { date: "2024 Q4", event: "DEX Pay", description: "Introduction of decentralized governance for community-driven decision making.", icon: <CreditCard /> },
-    { date: "2025 Q2", event: "MOOOOOOOON!", description: "Diamond Hand.", icon: <Moon /> },
+    { date: "First", event: "Meme Token Launch", description: "1 Billion Supply is launched fairly on Pump.Fun", icon: <Rocket /> },
+    { date: "Second", event: "Meme Contest", description: "Buy Tax 0%, Sell Tax 0% .", icon: <Award /> },
+    { date: "Third", event: "DEX Pay", description: "Paid Trendings starting with Dex!", icon: <CreditCard /> },
+    { date: "Blast Off", event: "MOOOOOOOON!", description: "Diamond Hand. Meme Contest and community events", icon: <Moon /> },
   ];
 
   return (

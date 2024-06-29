@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <span className="navbar-logo">Foxy In Box</span>
+        <span className="navbar-logo">Fox In Box</span>
         <div className="navbar-menu-icon" onClick={() => setIsMenuOpen(!isMenuOpen)}>
           ☰
         </div>
